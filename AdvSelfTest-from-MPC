@@ -1,0 +1,9 @@
+#!/bin/bash
+source ~/.config/projLaunch/config.conf
+
+DIR_proj="$DIR_Git/AdvSelfTestFromClassicalMPC"
+
+open "$DIR_proj"
+# open -a LyX "$DIR_proj/DI_WCF_parasite_0v1.lyx"
+open "onenote:#Check%20with%20Mauro—the%20Hdev,%20S_dev%20%20issue&section-id={741C7812-E9B3-8C47-B5B3-C2E97BB579E3}&page-id={A96B8289-4F22-7644-BC7E-413A8C4736A8}&end&base-path=https://d.docs.live.net/0D339DAD8C88FB9A/Documents/HappinessMonster/FAST%20FullyAdversarialSelfTesting.one"
+open -a "Visual Studio Code" "$DIR_proj"
