@@ -1,0 +1,9 @@
+#!/bin/bash
+source ~/.config/projLaunch/config.conf
+
+DIR_proj="$DIR_Git/penWCF"
+
+open "$DIR_proj"
+# open -a LyX "$DIR_proj/DI_WCF_parasite_0v1.lyx"
+open "onenote:#Lower%20bound&section-id={829126ED-4A4A-1246-A621-E95AD0073130}&page-id={720CD5AC-2849-6C43-AAA5-0C7D87F12E21}&end&base-path=https://d.docs.live.net/0D339DAD8C88FB9A/Documents/HappinessMonster/penWCF.one"
+open -a "Visual Studio Code" "$DIR_proj"
