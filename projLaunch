@@ -1,0 +1,21 @@
+#!/bin/bash
+
+source config.txt
+
+choice=$(
+  (
+    find "$DIR_projLaunch" -maxdepth 1 -type f -perm -111 -exec basename {} \;
+    echo "[Open Projects Folder]"
+    echo "[Open Projects Folder in VS Code]"
+  ) | fzf
+)
+
+[ -z "$choice" ] && exit 0
+
+if [ "$choice" = "[Open Projects Folder]" ]; then
+  open "$DIR_projLaunch"
+elif [ "$choice" = "[Open Projects Folder in VS Code]" ]; then
+  open -a "Visual Studio Code" "$DIR_projLaunch"
+else
+  "$DIR_projLaunch/$choice"
+fi
