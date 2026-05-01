@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source config.txt
+source ~/.config/projLaunch/config.conf
 
 choice=$(
   (

@@ -1,5 +1,5 @@
 #!/bin/bash
-source config.txt
+source ~/.config/projLaunch/config.conf
 
 DIR_proj="$DIR_Git/boundedThermo"
 
