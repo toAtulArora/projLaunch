@@ -1,8 +1,0 @@
-#!/bin/bash
-source ~/.config/projLaunch/config.conf
-
-DIR_proj="$DIR_Git/DI_WCF"
-
-open "$DIR_proj"
-open "onenote:#DI-WCF,%20adding%20the%20final%20proof&section-id={E7C1D302-E4D4-0641-876B-C73B7BB740A2}&page-id={6DD8D7DE-D8D0-0F40-9237-8346C9A858F1}&end&base-path=https://d.docs.live.net/0D339DAD8C88FB9A/Documents/Work%20II%20(transit)/DI-WCF.one"
-open -a "Visual Studio Code" "$DIR_proj"

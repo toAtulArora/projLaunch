@@ -3,6 +3,7 @@ source ~/.config/projLaunch/config.conf
 
 DIR_proj="$DIR_Git/boundedThermo"
 
+open "$DIR_proj"
 open -a LyX "$DIR_proj/BoundedThermo_0v3_lean_everything.lyx"
 open "onenote:#Continued&section-id={F918483A-1CA2-DF44-8167-DD6B922B29A1}&page-id={C3EE0DC9-072F-2A4C-B482-4726B7389D8F}&end&base-path=https://d.docs.live.net/0D339DAD8C88FB9A/Documents/Mellaga%20(slow)/BoundedThermo.one"
 open -a "Visual Studio Code" "$DIR_proj"

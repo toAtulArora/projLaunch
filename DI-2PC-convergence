@@ -1,0 +1,9 @@
+#!/bin/bash
+source ~/.config/projLaunch/config.conf
+
+DIR_proj="$DIR_Git/DI_2PC_convergence"
+
+open "$DIR_proj"
+open -a LyX "$DIR_proj/DI_WCF_parasite_0v1.lyx"
+open "onenote:#House%20of%20cards&section-id={7A62AB82-C2D5-BF4E-9849-FE83507F1FE6}&page-id={380C87FE-7A67-6047-9FFD-8171EBE5ECCC}&end&base-path=https://d.docs.live.net/0D339DAD8C88FB9A/Documents/Mellaga%20(slow)/DI_WCF.one"
+open -a "Visual Studio Code" "$DIR_proj"
