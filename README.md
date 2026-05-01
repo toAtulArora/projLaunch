@@ -35,6 +35,11 @@ NB: Since I am on MacOS, this is only designed to work there.
     Add it to the environment so you don't have to cd your way into projLaunch. 
     For instance, something like the following
     ```sudo ln -s /location/to/where/you/cloned/projLaunch/projLaunch /usr/local/bin/projLaunch```
+
+4.
+    When you create a new file (such as those in examples), make sure you make them executable, i.e. run
+    ```chmod +x yourNewProject```
+    
 ## Usage
 
 You should now be able to launch
