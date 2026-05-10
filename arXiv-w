@@ -1,0 +1,9 @@
+#!/bin/bash
+source ~/.config/projLaunch/config.conf
+
+DIR_proj="$DIR_GitHub/arXiv-w"
+
+open "$DIR_proj"
+open -a "Arc" "https://docs.google.com/document/d/1uWfFYQHdOEJOuGU-ereHooawB0nB7J3MkVeBqevdA_c/edit?tab=t.0#heading=h.7dykj1u5s3pr"
+open -a "Safari" "https://arxiv.org/"
+open -a "Visual Studio Code" "$DIR_proj"
