@@ -1,10 +1,7 @@
 #!/bin/bash
 source ~/.config/projLaunch/config.conf
 
-<<<<<<< HEAD
-=======
 # DIR_proj="$DIR_Git/DI_2PC_convergence"
->>>>>>> 1ea504b3a2e1e9c336b6db37e2d8e8be611283e5
 DIR_proj="$DIR_Git/DI_WCF"
 
 open "$DIR_proj"
