@@ -1,0 +1,10 @@
+#!/bin/bash
+source ~/.config/projLaunch/config.conf
+
+# DIR_proj="$DIR_Git/DI_2PC_convergence"
+DIR_proj="$DIR_iCloud/Documents/writing"
+
+# printf '%q\n' "$DIR_proj"
+echo "$DIR_proj"
+open "$DIR_proj"
+open -a "MarkText" "$DIR_proj"

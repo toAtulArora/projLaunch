@@ -13,9 +13,9 @@ choice=$(
 [ -z "$choice" ] && exit 0
 
 if [ "$choice" = "[Open Projects Folder]" ]; then
-  open "$DIR_projLaunch"
+  open "$DIR_projLaunch" ~/.config/projLaunch/
 elif [ "$choice" = "[Open Projects Folder in VS Code]" ]; then
-  open -a "Visual Studio Code" "$DIR_projLaunch"
+  open -a "Visual Studio Code" "$DIR_projLaunch" ~/.config/projLaunch/config.conf
 else
   "$DIR_projLaunch/$choice"
 fi
